@@ -1,0 +1,19 @@
+{
+  "document_manifest_count": 5723,
+  "gold_label_export": {
+    "rows": 2180,
+    "hierarchy:VALID": 680,
+    "hierarchy:REJECT": 200,
+    "non_hierarchical:VALID": 1015,
+    "non_hierarchical:REJECT": 285
+  },
+  "excluded_fields": [
+    "full_text",
+    "abstract",
+    "body",
+    "evidence_text",
+    "gold_note",
+    "raw_model_response"
+  ],
+  "license_note": "The release contains metadata, hashes, derived labels, and aggregate results only; it does not redistribute third-party full text or verbatim evidence spans."
+}

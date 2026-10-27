@@ -1,0 +1,18 @@
+{
+  "record_created": "2026-10-10",
+  "status": "author_confirmed_summary_original_outputs_unavailable",
+  "reported_model": "deepseek-v4-flash",
+  "methods": 9,
+  "reported_table": "Manuscript Table 2",
+  "source": "The author confirmed a separate shared-model experiment with the same current Table 2 metrics in this editing conversation.",
+  "confirmation": "Records and directory cannot currently be located; all methods used the shared model and the indicators were the same.",
+  "run_date": null,
+  "run_id": null,
+  "original_prediction_files_available": false,
+  "original_run_logs_available": false,
+  "shared_model_script_hash": null,
+  "independently_verified_from_shared_model_outputs": false,
+  "summary_precision": "Matches displayed Table 2 precision; no new TP/FP/FN counts are inferred.",
+  "historical_outputs": "historical_cached_accuracy/ contains the earlier mixed-model audit. Matching aggregate scores do not make those files the shared-model experiment outputs.",
+  "required_for_prediction_level_reproduction": "Recover the shared-model run's prediction files, configurations and run logs, or perform a new documented run."
+}

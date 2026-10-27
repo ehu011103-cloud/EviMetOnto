@@ -1,0 +1,91 @@
+{
+  "input_csv": "taxonomy_runs/relations_4d/full_raw_4d_relations_v4flash.csv",
+  "model": "deepseek-v4-flash",
+  "base_url": "https://api.deepseek.com",
+  "rows_in_input_scope": 70582,
+  "rows_completed": 70582,
+  "api_errors": 0,
+  "decision_counts": {
+    "VALID": 61468,
+    "INVALID": 9103,
+    "UNCERTAIN": 11
+  },
+  "direction_status_counts": {
+    "symmetric": 12705,
+    "correct": 48759,
+    "unsupported": 7447,
+    "reversed": 1651,
+    "unclear": 12,
+    "bidirectional_non_symmetric": 8
+  },
+  "error_type_counts": {
+    "none": 61468,
+    "wrong_relation_type": 1268,
+    "wrong_direction": 1664,
+    "unsupported": 6168,
+    "unclear": 10,
+    "entity_boundary_error": 4
+  },
+  "relation_decision_counts": {
+    "ASSOCIATED_WITH": {
+      "VALID": 10809,
+      "INVALID": 505,
+      "UNCERTAIN": 3
+    },
+    "CAUSES": {
+      "VALID": 9237,
+      "INVALID": 980,
+      "UNCERTAIN": 3
+    },
+    "CONTROLS": {
+      "VALID": 5857,
+      "INVALID": 2207
+    },
+    "DISTRIBUTED_ALONG": {
+      "VALID": 2563,
+      "INVALID": 377
+    },
+    "FORMED_DURING": {
+      "VALID": 6108,
+      "INVALID": 883
+    },
+    "HOSTED_IN": {
+      "VALID": 10069,
+      "INVALID": 1208
+    },
+    "INDICATES": {
+      "VALID": 3874,
+      "INVALID": 142
+    },
+    "INTRUDES_INTO": {
+      "VALID": 1996,
+      "INVALID": 157
+    },
+    "OVERPRINTS": {
+      "VALID": 2603,
+      "INVALID": 655
+    },
+    "PRECEDES": {
+      "VALID": 5174,
+      "INVALID": 1522,
+      "UNCERTAIN": 3
+    },
+    "SYNCHRONOUS_WITH": {
+      "VALID": 1889,
+      "INVALID": 213,
+      "UNCERTAIN": 2
+    },
+    "ZONES_WITH": {
+      "VALID": 1289,
+      "INVALID": 254
+    }
+  },
+  "token_usage": {
+    "prompt_tokens": 32528020,
+    "completion_tokens": 7086442,
+    "total_tokens": 39614462,
+    "prompt_cache_hit_tokens": 77824,
+    "prompt_cache_miss_tokens": 32450196
+  },
+  "note": "ASSOCIATED_WITH and SYNCHRONOUS_WITH are treated as symmetric relation labels; other labels are direction-sensitive."
+}

@@ -1,0 +1,129 @@
+{
+  "method": "Local full-corpus fused ontology build",
+  "scope_note": "No API calls. Uses validated hierarchy edges, clean valid 4D triples, local auto alignments, and completed LLM SELECT alignments.",
+  "inputs": {
+    "hierarchy_keep_valid_edges": "taxonomy_runs\\validation\\cleanup_routing_2026_06_06\\hierarchy_keep_valid_edges.csv",
+    "4d_valid_clean_unique_triples": "taxonomy_runs\\relations_4d\\cleanup_queues_2026_06_06\\4d_valid_clean_unique_triples.csv",
+    "alignment_local_auto": "taxonomy_runs\\alignment_prolea_2026_06_07\\alignment_local_auto.csv",
+    "llm_alignment_results": "taxonomy_runs\\alignment_prolea_2026_06_07\\llm_compact_top5_deepseek_v4flash_full_2026_06_07\\prolea_compact_top5_results.csv"
+  },
+  "outputs": {
+    "ttl": "taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_ontology.ttl",
+    "alignment_term_map": "taxonomy_runs\\full_fused_ontology_2026_06_14\\alignment_term_map.csv",
+    "mounted_4d_edges": "taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_4d_edges.csv",
+    "unique_mounted_4d_edges": "taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_4d_edges_unique.csv",
+    "coverage_rows": "taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_coverage_rows.csv",
+    "relation_coverage": "taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_relation_coverage.csv",
+    "alignment_node_hotspots": "taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_alignment_node_hotspots.csv"
+  },
+  "counts": {
+    "validated_hierarchy_edges": 35058,
+    "ontology_classes": 23725,
+    "object_properties": 12,
+    "valid_clean_4d_triples": 59762,
+    "aligned_terms_total": 20957,
+    "alignment_source_counts": {
+      "auto_exact": 7167,
+      "auto_high_confidence": 479,
+      "llm_select": 13311
+    },
+    "mounted_4d_rows_both_endpoints_aligned": 16890,
+    "unique_mounted_4d_rdf_edges": 16371,
+    "rdf_graph_triples": 98905
+  },
+  "endpoint_coverage_counts": {
+    "neither": 15628,
+    "both_aligned": 16890,
+    "subject_only": 18220,
+    "object_only": 9024
+  },
+  "endpoint_coverage_rates": {
+    "both_aligned": 0.282621,
+    "neither": 0.261504,
+    "object_only": 0.150999,
+    "subject_only": 0.304876
+  },
+  "mounted_4d_row_rate": 0.282621,
+  "top_alignment_nodes_by_endpoint_count": [
+    {
+      "node": "GoldMineralization",
+      "aligned_endpoint_count": 762
+    },
+    {
+      "node": "Mineralization",
+      "aligned_endpoint_count": 426
+    },
+    {
+      "node": "OreBody",
+      "aligned_endpoint_count": 201
+    },
+    {
+      "node": "Gold",
+      "aligned_endpoint_count": 199
+    },
+    {
+      "node": "HydrothermalAlteration",
+      "aligned_endpoint_count": 199
+    },
+    {
+      "node": "Formation",
+      "aligned_endpoint_count": 194
+    },
+    {
+      "node": "UraniumMineralization",
+      "aligned_endpoint_count": 181
+    },
+    {
+      "node": "Pyrite",
+      "aligned_endpoint_count": 167
+    },
+    {
+      "node": "ShearZone",
+      "aligned_endpoint_count": 160
+    },
+    {
+      "node": "Carbonatite",
+      "aligned_endpoint_count": 159
+    },
+    {
+      "node": "Orebody",
+      "aligned_endpoint_count": 141
+    },
+    {
+      "node": "QuartzVein",
+      "aligned_endpoint_count": 135
+    },
+    {
+      "node": "Magnetite",
+      "aligned_endpoint_count": 125
+    },
+    {
+      "node": "Fault",
+      "aligned_endpoint_count": 124
+    },
+    {
+      "node": "HydrothermalFluid",
+      "aligned_endpoint_count": 118
+    },
+    {
+      "node": "Granite",
+      "aligned_endpoint_count": 116
+    },
+    {
+      "node": "PotassicAlteration",
+      "aligned_endpoint_count": 110
+    },
+    {
+      "node": "MoMineralization",
+      "aligned_endpoint_count": 109
+    },
+    {
+      "node": "Chalcopyrite",
+      "aligned_endpoint_count": 108
+    },
+    {
+      "node": "SulfideMineralization",
+      "aligned_endpoint_count": 95
+    }
+  ]
+}

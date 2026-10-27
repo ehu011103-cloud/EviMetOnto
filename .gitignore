@@ -1,0 +1,10 @@
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+verification_report.json
+artifact_verification_report.json
+synthetic_example_report.json

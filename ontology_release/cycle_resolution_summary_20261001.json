@@ -1,0 +1,9 @@
+{
+  "input": "C:\\Users\\Administrator\\Desktop\\goldontology\\taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_ontology.ttl",
+  "output": "C:\\Users\\Administrator\\Desktop\\goldontology\\taxonomy_runs\\full_fused_ontology_2026_06_14\\full_fused_ontology_acyclic_20261001.ttl",
+  "cycle_resolution_policy": "Quarantine every asserted rdfs:subClassOf edge whose endpoints belong to the same cyclic SCC; do not invent a preferred direction.",
+  "cyclic_components_before": 8,
+  "cycle_internal_edges_quarantined": 18,
+  "original_named_subclass_edges": 35058,
+  "retained_named_subclass_edges": 35040
+}

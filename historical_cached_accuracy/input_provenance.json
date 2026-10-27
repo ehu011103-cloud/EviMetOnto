@@ -1,0 +1,92 @@
+{
+  "LLMs4OL Task B+C": {
+    "source_directory": "baseline_llms4ol_bc_deepseek_final50_2026_07_23",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "c858bda975540064686c3f868be843e335db6c71fc5ab8b301108f87a0ed2bfd",
+      "full_gold_draft_4d_relations_review.csv": "fde91095a01f9469c8aa9c7d2f7d0625b077238940bcebec436a0f3edf1550c4"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "POP-Duo": {
+    "source_directory": "baseline_pop_duo_deepseek_final50_2026_06_30",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "621174ff21279f84b9507efe51417650bea3d7eed905678f76eb1c2aae68d7a8",
+      "full_gold_draft_4d_relations_review.csv": "8f22a9f5ab167e9f681d1cb4137d1e278be792936ab95c01fd0df22d7f07d8ec"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "Text2Onto--LLM": {
+    "source_directory": "baseline_text2onto_llm_deepseek_final50_2026_07_26",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "e601a08ffcccae0fc7cd4b13efc47fb2357ff70dfcad350eb84e0755e60ef442",
+      "full_gold_draft_4d_relations_review.csv": "929ae7332f41bf7a300e8b377b577c453e31ad4e7dfd528db1a6aeb5cb8113d3"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "OntoGen": {
+    "source_directory": "baseline_ontogen_deepseek_final50_2026_06_29",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "0bbd3fad63af158ab2580f4d7467c3f27aec87edb66f304154f062b216e04d4e",
+      "full_gold_draft_4d_relations_review.csv": "19df648f5b47ba692e5bd7d68a6bd11dac2d2573ba71cea5037199c46e4402e6"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "NeOn-GPT": {
+    "source_directory": "baseline_neon_gpt_deepseek_final50_2026_06_30",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "999a29484b8e8df8a0719a9826a7e08a17215d669bb5c31ab7e657144d196209",
+      "full_gold_draft_4d_relations_review.csv": "a3c3402b72429de28952e31b10bce5a968f27825365c999fe6abbed12a5b57b4"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "Ontogenia": {
+    "source_directory": "baseline_ontogenia_deepseek_final50_2026_07_02",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "74032a45107952351975ea7a17990bf84537446c2522e2f96a1a5f7ea89fbb42",
+      "full_gold_draft_4d_relations_review.csv": "776e4d4558ad823320c733a43934f9de53af749767763effc03838e8c70c213c"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "Memoryless-CQ": {
+    "source_directory": "baseline_memoryless_cqbycq_deepseek_final50_2026_07_03",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "37943db808bd2437921bbb4455c82a91360e2fa9f529b1ce0b01e82547da9c76",
+      "full_gold_draft_4d_relations_review.csv": "e0a74e494e2d0c0d75071f96e0c15bda43b74da391bbb5fa13d6aea2ee938d16"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "Planning-First": {
+    "source_directory": "baseline_planning_first_deepseek_v4flash_final50_2026_07_03",
+    "input_sha256": {
+      "full_gold_draft_hierarchy_review.csv": "abc6809fc7dc31636254694ed1a31c0cd728ad23179a4f996620f168d08116a8",
+      "full_gold_draft_4d_relations_review.csv": "5f8aa067cce82482e97f59bd2c6ace08314c7766c08fdc26dbea8a287bd32f2d"
+    },
+    "recorded_model_fields": [
+      "deepseek-v4-flash"
+    ]
+  },
+  "EviMetOnto": {
+    "source_directory": "hard_gate_validation_final50_v4",
+    "input_sha256": {
+      "hard_gate_hierarchy_predictions.csv": "06d253481ad654f2f60d553fbd051d24a8508e68fd07d69b6f04003784328d1c",
+      "hard_gate_4d_predictions.csv": "e9d0ce0bb61dea6022a323a53fb901333361f6c8bc00816be987b29f3f451943"
+    },
+    "recorded_model_fields": [
+      "gpt-5.4"
+    ]
+  }
+}

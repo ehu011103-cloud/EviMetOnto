@@ -1,0 +1,36 @@
+{
+  "reported_in": "manuscript Table 3",
+  "task": "source-record-assisted metallogenic evidence retrieval",
+  "corpus_documents": 100,
+  "development_queries": 89,
+  "test_queries": 158,
+  "split_rule": "SHA1(source_file) first 8 hex digits modulo 5 equals 0 for development; otherwise test",
+  "metrics": {
+    "MRR": "untruncated reciprocal rank, renamed from the original script's inaccurate MRR@10 field; values unchanged",
+    "nDCG@10": "discounted single source-document positive within ranks 1-10",
+    "Recall@5/10/20": "single source-document positive found within each cutoff"
+  },
+  "lexical_inputs": "coarse subject, relation, coarse object; fixed schema terms for the schema baseline",
+  "ontology_inputs": "coarse query plus hierarchy expansion seeded by ORIGINAL fine-grained subject and object, plus fixed schema terms",
+  "fusion": "(1-alpha) * minmax(coarse BM25 scores) + alpha * minmax(expanded BM25 scores)",
+  "alpha": 0.5,
+  "alpha_selection": "development-set nDCG@10 over grid 0.1,0.2,...,0.9",
+  "positive_definition": "source document attached to the validated relation record",
+  "limitation": "input information differs; this does not isolate an ontology-only effect or independent expert relevance",
+  "archived_query_rank_verification": [
+    "BM25_coarse_same_test_split",
+    "BM25+schema_coarse_same_test_split",
+    "TFIDF_word_coarse_same_test_split",
+    "TFIDF_char_coarse_same_test_split",
+    "TFIDF_word_char_hybrid_coarse_same_test_split",
+    "BM25+EviMetOnto_coarse_same_test_split"
+  ],
+  "hybrid_query_ranks": "not stored in the original per-query CSV; aggregate archived value preserved",
+  "original_file_sha256": {
+    "evidence_retrieval_summary.csv": "d38f323902a7cf3384b31cbfd0601a27a704b1e57650fc251d050f80831d865d",
+    "evidence_retrieval_query_results.csv": "a00f31aff0fa24ef92140d0fd64252053d506f216c86427ee52f32264c1b6665",
+    "evidence_retrieval_manifest.json": "13cb1a3a34da26e2b60ccd913de2eb949b1d01ef8c937f462ab3d7e26f51bc15",
+    "run_evidence_retrieval_pilot.py": "ee062a8237cba0eda19e736b71f8e85407612345bf03751789a5d1c9e8a4ca80"
+  },
+  "historical_manifest_note": "The original coarse_task description is inaccurate about the expansion seeds; this protocol follows the actual script."
+}

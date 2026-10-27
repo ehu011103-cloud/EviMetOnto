@@ -1,0 +1,27 @@
+{
+  "software": "EviMetOnto",
+  "candidate_version": "2026-10-27",
+  "language": "Python 3",
+  "contact": {
+    "name": "Lijun Dong",
+    "email": "ljdong@cug.edu.cn"
+  },
+  "verification_environment": {
+    "python": "3.13.8",
+    "system": "Windows",
+    "release": "11",
+    "machine": "AMD64",
+    "packages": {
+      "rdflib": "7.6.0",
+      "networkx": "3.6.1"
+    }
+  },
+  "environment_scope": "This packaging/verification run only, not the original model-generation experiments.",
+  "hardware": "The offline checker and synthetic example execute on CPU without GPU or model access. Peak memory and full-construction hardware have not been benchmarked here.",
+  "payload_file_count_excluding_generated_metadata_and_hash_inventory": 79,
+  "payload_bytes_excluding_generated_metadata_and_hash_inventory": 12511066,
+  "public_repository_url": "https://github.com/ehu011103-cloud/EviMetOnto",
+  "license": "MIT (original project code and documentation; see NOTICE.md)",
+  "first_public_available_date": "2026-10-27",
+  "publication_status": "Curated release; online status is verified separately."
+}

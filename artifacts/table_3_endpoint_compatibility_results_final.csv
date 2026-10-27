@@ -1,0 +1,14 @@
+panel,method,family,output_scope,tp,fp,fn,precision,recall,f1,hierarchy_f1,nonhierarchical_4d_f1
+A,Ours (VALID+UNCERTAIN),Proposed workflow,hierarchy,535,123,145,0.8131,0.7868,0.7997,,
+A,Ours (VALID+UNCERTAIN),Proposed workflow,aligned_nonhierarchical,948,181,67,0.8397,0.9340,0.8843,,
+A,Ours (VALID+UNCERTAIN),Proposed workflow,overall_graph,1483,304,212,0.8299,0.8749,0.8518,,
+B,NeOn-GPT,Generic ontology learning,hierarchy,,,,0.6400,0.8790,0.7410,,
+B,OntoGen,Generic ontology learning,hierarchy,,,,0.4050,1.0000,0.5760,,
+B,Ontogenia,CQ-driven ontology generation,hierarchy,,,,0.6290,0.9210,0.7470,,
+B,Memoryless-CQ,CQ-driven ontology generation,hierarchy,,,,0.6850,0.7780,0.7280,,
+B,LLMs4OL Task B+C,Task-specific ontology learning,hierarchy,,,,0.7470,0.9740,0.8470,,
+B,POP-Duo,Progressive dual-LLM prompting,hierarchy,,,,0.5710,0.9060,0.7000,,
+B,Planning-First,Planning-first multi-agent generation,hierarchy,,,,0.4170,0.9060,0.5710,,
+B,CHisAgent,Taxonomy-specific multi-agent construction,hierarchy,,,,0.2620,1.0000,0.4150,,
+C,NeOn-GPT,Generic ontology learning,overall_graph,,,,0.7830,0.5730,0.6620,0.8060,0.5500
+C,LLMs4OL Task B+C,Task-specific ontology learning,overall_graph,,,,0.6450,0.7830,0.7070,0.8470,0.6070

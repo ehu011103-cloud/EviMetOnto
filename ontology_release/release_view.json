@@ -1,0 +1,15 @@
+{
+  "file": "full_fused_ontology_acyclic_20261001.ttl",
+  "sha256": "ace88e2bdb2c120b5aa338d79d9b88996ad7f0e016ca22968dd82a08294cff25",
+  "counts": {
+    "classes": 23725,
+    "object_properties": 12,
+    "named_subclass_edges": 35040,
+    "nonhierarchical_edges": 16371,
+    "rdf_triples": 98887
+  },
+  "acceptance": "Strict VALID hierarchy and VALID cleaned relation records; not diagnostic VALID+UNCERTAIN.",
+  "alignment": "Completed alignment: 20957 terms, 16890 both-aligned rows, 16371 unique relation edges.",
+  "cycle_handling": "All 18 edges internal to cyclic subclass components quarantined; no direction selected automatically.",
+  "distribution": "Concept labels and assertions only; no source full text or verbatim evidence."
+}

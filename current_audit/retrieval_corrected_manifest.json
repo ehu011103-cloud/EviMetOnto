@@ -1,0 +1,24 @@
+{
+  "task": "metallogenic evidence retrieval",
+  "corpus_documents": 100,
+  "queries": 247,
+  "positive_definition": "source document attached to the validated relation record",
+  "systems": [
+    "BM25",
+    "BM25+schema",
+    "BM25+EviMetOnto",
+    "BM25_coarse",
+    "BM25+schema_coarse",
+    "BM25+EviMetOnto_coarse",
+    "TFIDF_word_coarse",
+    "TFIDF_char_coarse",
+    "TFIDF_word_char_hybrid_coarse",
+    "BM25+EviMetOnto_hybrid_coarse"
+  ],
+  "coarse_task": "replace matched specific concepts with one ontology parent; expansion receives only the resulting coarse endpoints, not the original endpoints",
+  "metric_correction": "MRR@10 gives zero credit below rank 10; previous pilot incorrectly reported untruncated MRR",
+  "remaining_limitations": "ontology-derived synthetic queries; fixed within-corpus ontology, not an unseen-document evaluation; inherited single-positive labels",
+  "status": "weakly supervised pilot; source-document positives are derived from the existing relation extraction records",
+  "warning": "Do not report as an independent expert-labeled downstream benchmark without a separately judged query-document pool.",
+  "dense_retrieval": "not run: sentence-transformers import fails because the local PyTorch DLL path is invalid"
+}

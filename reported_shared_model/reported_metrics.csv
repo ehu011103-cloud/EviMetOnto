@@ -1,0 +1,19 @@
+method,scope,precision,recall,f1,reported_model,source_status
+LLMs4OL Task B+C,hierarchy,0.252,0.329,0.285,deepseek-v4-flash,author_confirmed_outputs_unavailable
+LLMs4OL Task B+C,overall_graph,0.163,0.198,0.179,deepseek-v4-flash,author_confirmed_outputs_unavailable
+POP-Duo,hierarchy,0.191,0.199,0.195,deepseek-v4-flash,author_confirmed_outputs_unavailable
+POP-Duo,overall_graph,0.143,0.152,0.147,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Text2Onto--LLM,hierarchy,0.139,0.179,0.157,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Text2Onto--LLM,overall_graph,0.089,0.116,0.101,deepseek-v4-flash,author_confirmed_outputs_unavailable
+OntoGen,hierarchy,0.009,0.015,0.011,deepseek-v4-flash,author_confirmed_outputs_unavailable
+OntoGen,overall_graph,0.035,0.048,0.040,deepseek-v4-flash,author_confirmed_outputs_unavailable
+NeOn-GPT,hierarchy,0.250,0.225,0.237,deepseek-v4-flash,author_confirmed_outputs_unavailable
+NeOn-GPT,overall_graph,0.179,0.131,0.151,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Ontogenia,hierarchy,0.147,0.141,0.144,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Ontogenia,overall_graph,0.137,0.088,0.108,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Memoryless-CQ,hierarchy,0.163,0.121,0.139,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Memoryless-CQ,overall_graph,0.152,0.080,0.105,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Planning-First,hierarchy,0.050,0.071,0.058,deepseek-v4-flash,author_confirmed_outputs_unavailable
+Planning-First,overall_graph,0.043,0.052,0.047,deepseek-v4-flash,author_confirmed_outputs_unavailable
+EviMetOnto,hierarchy,0.813,0.787,0.800,deepseek-v4-flash,author_confirmed_outputs_unavailable
+EviMetOnto,overall_graph,0.8299,0.8749,0.8518,deepseek-v4-flash,author_confirmed_outputs_unavailable

@@ -1,0 +1,57 @@
+{
+  "EviMetOnto-full-corpus-acyclic": {
+    "paths": ["../../taxonomy_runs/full_fused_ontology_2026_06_14/full_fused_ontology_acyclic_20261001.ttl"],
+    "scope": "Cycle-free audit copy of the full-corpus fused metallogenic ontology",
+    "track": "target ontology"
+  },
+  "SWEET": {
+    "glob": "baselines/sweet/src/*.ttl",
+    "scope": "Broad Earth and environmental science ontology suite",
+    "track": "formal ontology"
+  },
+  "GeoCore": {
+    "paths": ["baselines/geocore/geocore-full.owl"],
+    "scope": "Core upper-level ontology for geology",
+    "track": "formal ontology"
+  },
+  "GeoFault": {
+    "paths": ["baselines/geofault/GeoFaultOntology.owl"],
+    "scope": "Geological fault domain ontology",
+    "track": "formal ontology"
+  },
+  "RMO": {
+    "paths": ["baselines/rmo/RMO-v1.owl"],
+    "scope": "Rock-forming minerals ontology",
+    "track": "formal ontology"
+  },
+  "GeoSciML-3.2": {
+    "glob": "baselines/additional_public_ontologies/geosciml/*.ttl",
+    "scope": "OGC geoscience information model: geological features, materials, units, structures, events, boreholes, and related concepts",
+    "track": "formal ontology"
+  },
+  "GSQ-Geologic-Features": {
+    "glob": "baselines/additional_public_ontologies/gsq_geofeatures/*.ttl",
+    "scope": "Geological Survey of Queensland geological feature classes extending SWEET",
+    "track": "formal ontology"
+  },
+  "GSQ-Borehole-Profile": {
+    "paths": ["baselines/additional_public_ontologies/gsq_borehole/borehole.ttl"],
+    "scope": "Geological Survey of Queensland borehole profile aligned with GeoSciML, GeoSPARQL, and SOSA",
+    "track": "formal ontology / application profile"
+  },
+  "GeoScience-Ontology-GSO": {
+    "paths": [
+      "baselines/additional_public_ontologies/gso_repo/Loop3D-GSO/GSO-Common.ttl",
+      "baselines/additional_public_ontologies/gso_repo/Loop3D-GSO/GSO-Geology.ttl"
+    ],
+    "glob": "baselines/additional_public_ontologies/gso_repo/Loop3D-GSO/Modules/*.ttl",
+    "exclude": ["baselines/additional_public_ontologies/gso_repo/Loop3D-GSO/Modules/GSO-GTSmap.ttl"],
+    "scope": "Geological Survey of Canada / Loop3D layered geoscience ontology",
+    "track": "formal ontology"
+  },
+  "GeoSpatial-Relations": {
+    "paths": ["baselines/additional_public_ontologies/geospr/geospr-full.owl"],
+    "scope": "Geological spatial relations for reservoir geological bodies",
+    "track": "formal ontology / spatial relations"
+  }
+}

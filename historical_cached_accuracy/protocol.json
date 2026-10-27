@@ -1,0 +1,14 @@
+{
+  "version": "unified_exact_20261010",
+  "status": "retrospective_re_scoring_no_generation_rerun",
+  "matching": "Exact sample identifier, predicate, and normalized canonical endpoints; no alias ontology, semantic similarity, threshold, or symmetric swapping.",
+  "normalization": "CamelCase splitting, lower case, underscore/hyphen removal, sulphide/sulphur/dyke spelling substitutions, non-alphanumeric removal.",
+  "counting": "Unique set intersection; each normalized key contributes at most once, with no many-to-many matching.",
+  "direction": "Endpoint order preserved for every predicate, including declared symmetric relations.",
+  "tests_passed": 4,
+  "input_files": {
+    "gold_keys.csv": "7a7e7be6ad0d375bfd447c4297aa426bd71cd6574ed68f8c0d6359a931a80519",
+    "prediction_keys.csv": "1308ac76c8b4f1cf9ed3a08c742adc599af622d304983b7d6303a2260a16109d"
+  },
+  "note": "Re-scoring unifies evaluation only, not generation models, prompts, or candidate-conditioned annotation coverage."
+}

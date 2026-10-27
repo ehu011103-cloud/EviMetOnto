@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying EviMetOnto manuscript when using this software."
+type: software
+title: "EviMetOnto: Evidence-Constrained Metallogenic Ontology Construction"
+version: "2026.10.27"
+date-released: "2026-10-27"
+repository-code: "https://github.com/ehu011103-cloud/EviMetOnto"
+url: "https://github.com/ehu011103-cloud/EviMetOnto"
+license: MIT
+authors:
+  - family-names: Yao
+    given-names: Hong
+  - family-names: Hu
+    given-names: Yihui
+  - family-names: Li
+    given-names: Xinchuan
+  - family-names: Li
+    given-names: Shengwen
+  - family-names: Liu
+    given-names: Chao
+  - family-names: Dong
+    given-names: Lijun

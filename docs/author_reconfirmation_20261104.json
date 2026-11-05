@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-04",
+  "subject": "shared-model main diagnostic comparison",
+  "author_statement": "The author explicitly reconfirmed that the main experiment used the same model.",
+  "reported_model": "deepseek-v4-flash",
+  "manuscript_treatment": "Shared-model attribution retained as author-confirmed; no relabelling of historical mixed-model files.",
+  "original_predictions_located_in_this_revision": false,
+  "independently_reproduced_from_shared_model_outputs": false,
+  "additional_record_checked": "taxonomy_runs/gold_test_v2_pilot_10/deepseek_v4pro_same_model_metrics/pilot_metrics_summary.json",
+  "exclusion_reason": "A ten-document V4-Pro pilot with draft Gold, not the fifty-document Flash comparison."
+}

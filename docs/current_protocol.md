@@ -10,7 +10,9 @@ The expert reference is candidate-conditioned and contains 680 positive hierarch
 
 The earlier endpoint-compatibility manifests under historical_base_release/docs/ are historical and do not override this current exact-key description. Historical prediction caches are not relabeled as the current model run.
 
-## Retrieval, Table 3
+## Original retrieval archive, superseded for current Table 3
+
+The local 2026-11-04 candidate uses the input-matched audit in `retrieval_controls_20261023/`; see `docs/matched_retrieval.md` and Supplementary S7. The following describes only the original seven-system archive, preserved unchanged for provenance.
 
 There are 100 documents and 247 source-derived queries, split by source-document group into 89 development queries and 158 test queries within a fixed retrieval collection. Each query inherits one source-document positive. The five lexical systems use coarse queries; the two ontology systems additionally receive original fine-grained endpoints for hierarchy expansion. Source identifiers are not ranking terms.
 

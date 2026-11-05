@@ -62,7 +62,7 @@ Do not store output JSON over an input file. Newly generated output files are no
 
 ## Full Construction and Evaluation
 
-Refer to `docs/current_protocol.md` before using historical scripts. The current Table 2 shared-model experiment has aggregate scores but no supplied original predictions or run logs. The tuned ontology hybrid in Table 3 has aggregate scores but no archived per-query ranks. Historical model caches and the corrected retrieval audit are separate records, not substitutes for either missing output.
+Refer to `docs/current_protocol.md` before using historical scripts. Table 2 remains an author-confirmed shared-model experiment with aggregate scores but no supplied original predictions or run logs. The original tuned-hybrid archive omitted per-query ranks. The local revision now adds complete recomputed retrieval scores and matched controls in `retrieval_controls_20261023/`; run `python scripts/verify_matched_retrieval.py` and read `docs/matched_retrieval.md`. Historical mixed-model caches are not substituted for the missing shared-model output.
 
 Full text-dependent reruns require authorized literature and structured inputs, an appropriately configured model account, and checking historical script paths before execution. External ontology comparisons require the exact public-resource snapshots and import scope documented in the manifests. The offline checker and synthetic example do not reconstruct these missing inputs or outputs.
 

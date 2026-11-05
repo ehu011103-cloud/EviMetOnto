@@ -1,6 +1,6 @@
 # EviMetOnto: Evidence-Constrained Metallogenic Ontology Construction
 
-Version: 2026-10-27.
+Version: 2026.11.05, including the input-matched retrieval audit.
 
 Repository: https://github.com/ehu011103-cloud/EviMetOnto
 
@@ -15,7 +15,7 @@ Run `python scripts/synthetic_example.py` for a small, invented concept-graph wa
 | Manuscript item | Files | Reproduction scope |
 | --- | --- | --- |
 | Table 2, shared-model diagnostic accuracy | reported_shared_model/ | Aggregate results; original predictions and logs for this run were not supplied |
-| Table 3, source-record-assisted retrieval | reported_retrieval/ | Reported aggregate results, query definitions, split and rank sets for six systems other than the tuned ontology hybrid; tuned-hybrid per-query ranks are not archived |
+| Table 3, input-matched source recovery | retrieval_controls_20261023/ | Complete scores, token inputs, positive ranks, development tuning and paired cluster intervals for twelve audit systems; older records remain in reported_retrieval/ |
 | Table 4, construction and validation counts | artifacts/ | Derived summaries and corpus manifest |
 | Table 5, ontology structure | current_audit/, ontology_release/ | Final exported graph, structural summaries, comparator-file manifests and scoring code; external ontology snapshots must be obtained from their stated repositories |
 | Diagnostic Gold | artifacts/gold_v8_relation_labels.csv | Candidate-conditioned final relation labels and canonical keys, without restricted evidence spans |
@@ -28,7 +28,9 @@ historical_cached_accuracy/ contains an executable exact-key audit of earlier ca
 
 Run python scripts/verify_manuscript_artifacts.py --output verification_report.json from this package's root. This makes no model API calls and downloads no external resources. It checks the file inventory, recomputes the released ontology descriptors and six archived retrieval-rank summaries, and checks corpus/Gold inventory and source-group separation.
 
-The runtime in this report belongs to artifact verification, not the original model experiment. Current Table 2 predictions/logs and tuned ontology-hybrid per-query ranks remain unavailable. A passing report is not complete experiment reproduction or evidence of independently judged geological relevance.
+The runtime in this report belongs to artifact verification, not the original model experiment. Current Table 2 predictions/logs remain unavailable. Original tuned-hybrid ranks were not archived, but the new audit reproduces that configuration and supplies recomputed full scores. Run `python scripts/verify_matched_retrieval.py` to reconstruct all twelve audit systems, tuning and cluster intervals from those scores. A passing report is not text-scoring reproduction, a new LLM experiment, or independent relevance assessment.
+
+The author reconfirmed the shared-model diagnostic setting on 4 November 2026; see `docs/author_reconfirmation_20261104.json`. Historical mixed-model caches have not been relabelled. Read `docs/matched_retrieval.md` before interpreting the audit's negative hierarchy-expansion result.
 
 ## Environment and Use
 
@@ -51,4 +53,4 @@ Third-party PDFs, full structured source texts and verbatim evidence are exclude
 
 Users must obtain any required rights to third-party source material for text-dependent reruns. Repository access does not override those restrictions; see NOTICE.md.
 
-SHA256SUMS.csv and source_snapshot.json record package integrity and the manuscript/figure snapshot used for this delivery.
+SHA256SUMS.csv and source_snapshot.json record this revision. Earlier inventory and snapshot files are preserved with a `legacy_20261027_` prefix. The original prediction-level reproduction boundaries above remain unchanged.

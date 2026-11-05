@@ -1,0 +1,116 @@
+{
+  "version": "2026-10-27 C&G targeted revision",
+  "sources": {
+    "main.tex": "672a9e240372c4a614a16d12fbbae96031ad8d09cd36be1d9e38b2ada834b558",
+    "EviMetOnto_修订稿_中文版_20261009.tex": "f3edd9656de1cd9c727aaab8b7ecc8c042aadc556d6980bf6a35796019c81f37",
+    "references.bib": "f8e118878e843e96f3f2a02b31f53a593e336685b6359f5cb65186d52d950a9c",
+    "supplementary_cageo_en.tex": "e85dd37d084006280c91cb1c15ab744e30dde235385c950fc3bb4d0a6e9f7346",
+    "supplementary_cageo_zh.tex": "040b079895a1d4a1d945647da96312fbf57be064bf5622f07a010739561611e6"
+  },
+  "figures": {
+    "Fig1.pdf": "42967f058adf90125c6aeb9c6922b793b475e7498872e2487706c8e42296e1ac",
+    "Fig2.pdf": "e24604309292ee025157dc70a4b7d8a6d4089296f4af409fd8d0429fd24d36fb",
+    "Fig3.pdf": "fdd78a985525fd9c9a8aa29777732d220a3c6c10b43d3389c5126a15cbda2f49",
+    "Fig4.pdf": "721bb431c907bc583a76c9dd0b5c4cd7dd4379113cfb60c053dec61ea67a3195",
+    "Fig5.pdf": "3ddbda06eae053af644b7627b81c5f2e7793fc6a2071d71977766f1704eb1af1",
+    "Fig6.pdf": "aba247680e3ea2ce736a87b059f5464627a9843cc98b2e02ee3d693d928cf21f"
+  },
+  "pdfs": {
+    "EviMetOnto_CG_English_20261027.pdf": {
+      "pages": 26,
+      "sha256": "8172777cb6df734878677d2fc415ff38506f5ca4ea88ac2361b7efd9e59b4fdc",
+      "type3_fonts": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "Automated Construction of a Logic-Validated Metallogenic Ontology with Large Language Models",
+        "author": "Hong YaoⰠ﻿Yihui HuⰠ﻿Xinchuan LiⰠ整⁡氮",
+        "subject": "Manuscript prepared for Computers and Geosciences",
+        "keywords": "",
+        "creator": "LaTeX3; cas-sc.cls; hyperref.sty",
+        "producer": "pdfTeX;",
+        "creationDate": "D:20261027104403+08'00'",
+        "modDate": "D:20261027104403+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "EviMetOnto_CG_Chinese_20261027.pdf": {
+      "pages": 20,
+      "sha256": "4efaaa316b2be16bda8a49857b63ffe8d163a72447e39d76838143071473b06e",
+      "type3_fonts": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "基于大语言模型的逻辑验证成矿本体自动构建",
+        "author": "Hong YaoⰠ﻿Yihui HuⰠ﻿Xinchuan LiⰠ整⁡氮",
+        "subject": "Complex STM Content",
+        "keywords": "",
+        "creator": "LaTeX3; cas-sc.cls; hyperref.sty",
+        "producer": "pdfTeX;",
+        "creationDate": "D:20261027104418+08'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "EviMetOnto_CG_Supplement_EN_20261027.pdf": {
+      "pages": 8,
+      "sha256": "c214041153adbbb6b4b0a36875195f5f98e2f101565c6e4bb1b332263c8d6cb3",
+      "type3_fonts": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "MiKTeX pdfTeX-1.40.28",
+        "creationDate": "D:20261027104421+08'00'",
+        "modDate": "D:20261027104421+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "EviMetOnto_CG_Supplement_ZH_20261027.pdf": {
+      "pages": 8,
+      "sha256": "361adfe80d8dc9c1f6a57d0f64d91f4d65b662e4c4342a829c9850f8dc7453ac",
+      "type3_fonts": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "MiKTeX-dvipdfmx (20250413)",
+        "creationDate": "D:20261027104430+08'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    }
+  }
+}

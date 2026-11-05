@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the accompanying EviMetOnto manuscript when using this software."
 type: software
 title: "EviMetOnto: Evidence-Constrained Metallogenic Ontology Construction"
-version: "2026.10.27"
-date-released: "2026-10-27"
+version: "2026.11.05"
+date-released: "2026-11-05"
 repository-code: "https://github.com/ehu011103-cloud/EviMetOnto"
 url: "https://github.com/ehu011103-cloud/EviMetOnto"
 license: MIT
